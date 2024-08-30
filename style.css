@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #ff9a9e, #fad0c4), /* Gradient background */
+                url('path/to/your/background-image.jpg'); /* Image overlay */
+    background-size: cover;
+    background-blend-mode: overlay; /* Blend gradient and image */
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 500px;
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .container .tenor-gif-embed {
+    max-width: 200px;
+    margin-bottom: 15px;
+  }
+  
+  .container .btn {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn a {
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient button background */
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn a:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* Inverted gradient on hover */
+    transform: scale(1.05);
+  }
+  
